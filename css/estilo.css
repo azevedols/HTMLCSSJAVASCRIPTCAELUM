@@ -315,3 +315,59 @@ footer .container{
 .social a[href*="plus.google.com"]{
 	background-image: url(../img/googleplus.png);
 }
+
+@media(max-width: 939px){
+	/* adicionar aqui os novos estilos para mobile */
+}
+
+
+
+@media (max-width: 939px){
+	/* estilos para mobile */
+
+	header h1{
+		text-align: center;
+	}
+
+	header h1 img{
+		max-width: 50%;
+	}
+
+	.container{
+		width: 96%;
+	}
+
+	.sacola{
+		display: none;
+	}
+
+	.menu-opcoes{
+		position: static;
+		text-align: center;
+	}
+
+	.menu-opcoes ul li{
+		display: inline-block;
+		margin: 5px;
+	}
+
+	.busca,
+	.menu-departamentos,
+	.banner-destaque img{
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.painel{
+		width: auto;
+	}
+
+	.painel li{
+		width: 30%;
+	}
+
+	.painel img{
+		width: 100%;
+	}
+
+}
